@@ -31,14 +31,14 @@ public class AverageCalculator
             return int.MinValue;
         }
 
-        int maxi = numbers[0]; 
+        int maximum = numbers[0]; 
         foreach (int num in numbers)
         {
-            if (num > maxi)
-                maxi = num; 
+            if (num > maximum)
+                maximum = num; 
         }
 
-        return maxi;
+        return maximum;
     }
 }
 
