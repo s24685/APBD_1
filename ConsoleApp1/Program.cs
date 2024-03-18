@@ -1,4 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
+Console.WriteLine("Modification 1");
+Console.WriteLine("Modification 2");
+Console.WriteLine("Modification 2");
+Console.WriteLine("Modification 3");
 
 int[] numbers = { 10, 20, 30, 40, 50 };
 double average = AverageCalculator.CalculateAverage(numbers);
